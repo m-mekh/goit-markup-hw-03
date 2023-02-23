@@ -13,15 +13,29 @@ body {
   color: rgb(46, 47, 66, 1);
 }
 
-h1, h2, h3, h4, p, li {
-margin-top: 0;
-margin-bottom: 0;
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  outline: 1px solid red;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
-ul,li {
-  margin-top: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
   margin-bottom: 0;
-  padding-left: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -34,10 +48,11 @@ img {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-nav {
-  margin-right: auto;
+  margin-right: 0 auto;
 
   font-weight: 500;
   font-size: 16px;
@@ -150,7 +165,6 @@ img {
   color: #ffffff;
 
   margin-bottom: 48px;
-
 }
 
 .hero-btn {
@@ -166,7 +180,6 @@ img {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
-
 }
 
 .hero-btn:focus,
@@ -249,7 +262,7 @@ img {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #4D5AE5;
+  color: #4d5ae5;
   border: 1px solid #e7e9fc;
 }
 
