@@ -14,11 +14,11 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1168px;
   margin: 0 auto;
   outline: 1px solid red;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1,
@@ -53,7 +53,8 @@ img {
 
 .header-nav {
   margin-right: 0 auto;
-
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -81,6 +82,15 @@ img {
   color: var(--second-title-color);
 }
 
+.header-list {
+  display: flex;
+  margin-left: 76px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .list {
   list-style: none;
   text-decoration: none;
@@ -106,6 +116,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
+  display: block;
+  padding: 24px 10px;
 }
 
 .header-contacts {
@@ -176,10 +188,7 @@ img {
   text-align: center;
   border: 1px solid #e7e9fc;
 
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 16px 32px;
 }
 
 .hero-btn:focus,
