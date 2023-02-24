@@ -180,20 +180,24 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-adress-color);
   background-color: #2e2f42;
+}
+.hero-content {
+  background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   padding-left: 472px;
   padding-right: 472px;
+  width: 496px;
+  flex-grow: 1;
 }
 
 .hero-title {
-  width: 1440px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
+
   padding-top: 188px;
   padding-right: 472px;
   padding-bottom: 292px;
