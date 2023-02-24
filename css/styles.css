@@ -43,6 +43,7 @@ img {
 }
 
 .header {
+  display: flex;
   background-color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -50,6 +51,9 @@ img {
   text-decoration: none;
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -103,6 +107,7 @@ img {
 }
 
 .button {
+  display: inline-block;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
