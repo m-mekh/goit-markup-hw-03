@@ -14,11 +14,10 @@ body {
 }
 
 .container {
-  width: 1168px;
-  margin: 0 auto;
+  width: 1158px;
   outline: 1px solid red;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 h1,
@@ -78,7 +77,8 @@ img {
   outline: 1px solid blue;
 }
 
-.header-nav li {
+.header-list .header-item {
+  display: flex;
   margin-right: 40px;
 }
 
@@ -105,21 +105,20 @@ img {
   color: var(--second-title-color);
 }
 
-.header-list {
-  display: flex;
-  margin-left: 76px;
-}
-
-.header-item,
-.header-contacts:not(:last-child) {
-  margin-right: 40px;
-}
-
 .list {
   list-style: none;
   text-decoration: none;
   padding: 0;
   margin: 0;
+}
+
+.header-list {
+  display: flex;
+  margin-left: 76px;
+}
+
+.header-list .header-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .link {
@@ -144,15 +143,14 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
-  display: flex;
+  display: block;
   padding: 24px 10px;
 }
 
 .header-contacts {
   font-style: normal;
-  margin-left: 0 auto;
+  margin-left: auto;
   display: flex;
-  padding: 24px 10px;
 }
 
 .header-mail {
@@ -187,6 +185,9 @@ img {
   color: #2e2f42;
 }
 
+.header-contacts .contact + .contact {
+  margin-left: 40px;
+}
 .hero {
   font-weight: 400;
   font-size: 16px;
@@ -270,6 +271,7 @@ img {
 .gallery-list {
   margin-right: 0 auto;
   display: flex;
+  gap: 24px;
 }
 
 .gallery-title {
@@ -291,6 +293,7 @@ img {
 .team-list {
   margin-right: 0 auto;
   display: flex;
+  gap: 24px;
 }
 
 .team-company {
@@ -347,6 +350,10 @@ img {
   color: white;
 }
 
+.prjects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 .projects-item-title {
   font-weight: 500;
   font-size: 20px;
