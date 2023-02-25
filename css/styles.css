@@ -38,6 +38,10 @@ li {
   padding: 0;
 }
 
+li {
+  display: list-item;
+}
+
 img {
   display: block;
 }
@@ -70,6 +74,12 @@ img {
   letter-spacing: 0.02em;
   color: var(--item-title-color);
   text-decoration: none;
+
+  outline: 1px solid blue;
+}
+
+.header-nav li {
+  margin-right: 40px;
 }
 
 .logo {
@@ -227,6 +237,9 @@ img {
   color: #2e2f42;
 }
 
+.about-container {
+}
+
 .about-list {
   margin-right: 0 auto;
   display: flex;
@@ -238,6 +251,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--item-title-color);
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .about-item-subscribe {
