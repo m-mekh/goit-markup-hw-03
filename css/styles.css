@@ -199,6 +199,7 @@ img {
   background-color: #2e2f42;
   text-align: center;
   display: flex;
+  margin-bottom: 120px;
 }
 .hero-conainer {
   background: #2e2f42;
@@ -260,6 +261,10 @@ img {
   display: flex;
 }
 
+.about-item {
+  flex-direction: column;
+  align-items: flex-start;
+}
 .about-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -279,7 +284,7 @@ img {
 }
 
 .gallery-container {
-  margin-top: 0;
+  margin-bottom: 120px;
 }
 
 .gallery-list {
@@ -289,28 +294,37 @@ img {
 }
 
 .gallery-title {
+  margin-top: 0;
+  margin-bottom: 72px;
+  text-align: center;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-top: 0;
-  margin-bottom: 72px;
-  text-align: center;
 }
 
 .section-team {
   background: #f4f4fd;
   display: flex;
   text-align: center;
-  padding-bottom: 120px;
 }
 
 .team-list {
   margin-right: 0 auto;
   display: flex;
   column-gap: 24px;
+}
+
+.team-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
 }
 
 .team-company {
@@ -405,6 +419,7 @@ img {
   padding-top: 32px;
   padding-bottom: 8px;
   padding-left: 16px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -426,7 +441,7 @@ img {
 }
 
 .footer-container {
-  padding: 100px 0;
+  padding: 100px 15px;
 }
 
 .footer-logo {
