@@ -257,7 +257,7 @@ img {
 }
 
 .about-list {
-  margin-right: 0 auto;
+  padding-left: 15px;
   display: flex;
 }
 
@@ -384,6 +384,7 @@ img {
   color: #4d5ae5;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
+  gap: 24px;
 }
 
 .filter-btn:not(:last-child) {
