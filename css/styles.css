@@ -15,7 +15,6 @@ body {
 
 .container {
   width: 1158px;
-  outline: 1px solid tomato;
   padding: 0 15px;
   margin: auto;
 }
@@ -50,6 +49,23 @@ img {
   text-decoration: none;
   padding: 0;
   margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .header {
@@ -117,23 +133,6 @@ img {
 
 .header-list .header-item:not(:last-child) {
   margin-right: 40px;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.button {
-  display: inline-block;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  border-radius: 4px;
-  text-align: center;
 }
 
 .header-link {
@@ -220,7 +219,6 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
 
-  background-color: #4d5ae5;
   width: 496px;
   height: 120px;
 }
