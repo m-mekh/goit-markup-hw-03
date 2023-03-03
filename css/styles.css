@@ -137,7 +137,7 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   display: block;
-  padding: 24px 10px;
+  padding: 24px 0;
 }
 
 .header-address {
@@ -196,8 +196,6 @@ img {
   display: flex;
   padding-top: 188px;
   padding-bottom: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
 }
 
 .hero-conainer {
@@ -232,6 +230,7 @@ img {
   min-width: 169px;
   flex-direction: row;
   text-align: center;
+  border: none;
 }
 
 .hero-btn:focus,
