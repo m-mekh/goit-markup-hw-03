@@ -290,9 +290,6 @@ img {
   padding-bottom: 120px;
 }
 
-.gallery-container {
-}
-
 .gallery-item {
   display: flex;
   flex-direction: column;
@@ -348,6 +345,7 @@ img {
 
 .team-content {
   padding: 32px 16px;
+  width: 100%;
 }
 
 .team-title {
