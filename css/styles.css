@@ -98,8 +98,11 @@ img {
 }
 
 .header-list .header-item {
-  display: flex;
   margin-right: 40px;
+}
+
+.header-list .header-item:not(:last-child) {
+  margin-right: 0;
 }
 
 .logo {
@@ -129,10 +132,6 @@ img {
 .header-list {
   display: flex;
   margin-left: 76px;
-}
-
-.header-list .header-item:not(:last-child) {
-  margin-right: 40px;
 }
 
 .header-link {
