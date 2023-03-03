@@ -437,6 +437,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  column-gap: 24px;
   padding-left: 0;
   margin-right: 0;
   justify-content: center;
@@ -449,13 +450,7 @@ img {
 }
 
 .projects-item {
-  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
-  column-gap: 24px;
-}
-
-.projects-list:nth-child(3n) {
-  margin-bottom: 24px;
 }
 
 .img-content {
