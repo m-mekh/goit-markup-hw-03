@@ -97,14 +97,6 @@ img {
   text-decoration: none;
 }
 
-.header-list .header-item {
-  margin-right: 40px;
-}
-
-.header-list .header-item:not(:last-child) {
-  margin-right: 0;
-}
-
 .logo {
   text-decoration: none;
   font-family: 'Raleway';
@@ -132,6 +124,11 @@ img {
 .header-list {
   display: flex;
   margin-left: 76px;
+  gap: 24px;
+}
+
+.header-list :not(:last-child) {
+  margin-right: 0;
 }
 
 .header-link {
